@@ -1,5 +1,6 @@
 body {
     background-color:burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1{
     color: brown;
@@ -15,6 +16,8 @@ pre{
     font-size: 18px;
     background-color: darkkhaki;
     border: 4px solid brown;
+    margin: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button {
@@ -23,7 +26,15 @@ button {
     background-color: coral;
     border-color: lightcoral;
 }
+
+th, td {
+    padding: 8px;
+}
+
 .links{
+    color: darkblue;
+}
+
+.button.links {
     color: black;
-    background-color:orangered;
 }
